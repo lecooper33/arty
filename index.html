@@ -116,7 +116,7 @@
                     <img src="img/Arty.jpg" alt="Brel Garland">
                 </div>
                 <div class="member-info">
-                    <h3>Nstame Arty</h3>
+                    <h3>NTSAME ONDO Arty Feriole</h3>
                     <p>Cheffe de Projet</p>
                     <div class="social-links">
                         <a href="https://www.facebook.com/Artyferiole" class="links"><i class="fab fa-facebook-f"></i></a>
@@ -130,7 +130,7 @@
                     <img src="img/brel.jpg" alt="Brel Garland">
                 </div>
                 <div class="member-info">
-                    <h3>Brel Garland</h3>
+                    <h3>KOUMASSAMBA Brel Garland</h3>
                     <p>Développeur Front-end</p>
                     <div class="social-links">
                         <a href="https://github.com/lecooper33/" class="links"><i class="fab fa-github"></i></a>
@@ -161,7 +161,7 @@
                     <h3>Junior Okawe</h3>
                     <p>Développeur Back-end</p>
                     <div class="social-links">
-                        <a href="#" class="links"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/Juniorokawe" class="links"><i class="fab fa-github"></i></a>
                         <a href="#" class="links"><i class="fab fa-linkedin"></i></a>
                         <a href="https://junior-okawe.onrender.com/"><button class="portfolio">portfolio</button></a>
                     </div>
@@ -185,8 +185,8 @@
                     <img src="img/Yasmine.jpg" alt="Yasmine">
                 </div>
                 <div class="member-info">
-                    <h3>BAKOUDISSA MOULANDA Yasmine </h3>
-                    <p>Développeur Back-end</p>
+                    <h3>BAKOUDISSA MOULANDA Yasmine.F</h3>
+                    <p>Sociale Média Manager</p>
                     <div class="social-links">
                         <a href="https://www.facebook.com/share/1JK2iQjJRj/https://www.facebook.com/share/1JK2iQjJRj/" class="links"><i class="fab fa-facebook-f"></i></a>
                        <a href="https://franchebakoudissa.vercel.app/"> <button class="portfolio">portfolio</button></a>
@@ -236,18 +236,24 @@
         </div>
     </section>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" action="https://formspree.io/f/xovwvenw" method="POST">
                 <div class="form-group">
-                    <input type="text" placeholder="Votre nom" required>
+                    <input type="text" name="name" placeholder="Votre nom" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" placeholder="Votre email" required>
+                    <input type="email" name="email" placeholder="Votre email" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Sujet">
+                    <select name="subject" id="select-subject">
+                        <option value="dev-web">Développement Web</option>
+                        <option value="back-end">Développement Back-end</option>
+                        <option value="marketing">Marketing Digital</option>
+                        <option value="design">Design UI/UX</option>
+                        <option value="autre">Autre</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <textarea placeholder="Votre message" required></textarea>
+                    <textarea name="message" placeholder="Votre message" required></textarea>
                 </div>
                 <button type="submit" class="btn-primary">Envoyer le message</button>
             </form>
